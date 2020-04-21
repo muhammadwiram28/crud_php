@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2020 at 02:47 PM
+-- Generation Time: Apr 21, 2020 at 03:29 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -40,7 +40,8 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`customers_id`, `customers_name`, `customers_age`, `customers_address`) VALUES
 (1, 'Mohammad Wira', 19, 'Pucanggading, 042/011'),
-(2, 'Nola Anggun', 19, 'Wates, 028/017');
+(3, 'Nira Nurfadzillah', 20, 'Puworejo, 034/019'),
+(4, 'Vera Crariza', 19, 'Jogoresan, 020/019');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +61,7 @@ ALTER TABLE `customers`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `customers_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `customers_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
