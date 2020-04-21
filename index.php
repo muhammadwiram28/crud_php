@@ -37,8 +37,8 @@
                     <td><?php echo $row["customers_age"]; ?></td>
                     <td><?php echo $row["customers_address"]; ?></td>
                     <td>
-                        <a href="edit.php?id=<?php echo $row["customers_id"]; ?>" class="btn btn-light">Edit</a>
-                        <a href="delete.php?id=<?php echo $row["customers_id"]; ?>" class="btn btn-danger">Delete</a>
+                        <a href="edit.php?id=<?php echo $row["customers_id"]; ?>" class="btn btn-outline-warning">Edit</a>
+                        <a href="delete.php?id=<?php echo $row["customers_id"]; ?>" class="btn btn-outline-danger">Delete</a>
                     </td>
                 </tr>
                 <?php } } else { ?> 
