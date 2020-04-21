@@ -33,8 +33,8 @@
             <td><?php echo $row["customers_age"]; ?></td>
             <td><?php echo $row["customers_address"]; ?></td>
             <td>
-                <a href="edit.php?customers_id=<?php echo $row["customers_id"]; ?>">Edit</a> |
-                <a href="delete.php?customers_id=<?php echo $row["customers_id"]; ?>">Delete</a>
+                <a href="edit.php?id=<?php echo $row["customers_id"]; ?>">Edit</a> |
+                <a href="delete.php?id=<?php echo $row["customers_id"]; ?>">Delete</a>
             </td>
         </tr>
         <?php } } else { ?> 
